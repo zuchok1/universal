@@ -1,0 +1,35 @@
+.news-top
+  padding-top: 30px
+  position: relative 
+  &__container
+    border-radius: 10px
+    background-color: #30363d
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__card
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 25px
+    margin-top: 25px
+    margin-bottom: 30px
+    max-width: 284px
+    &:not(:last-child)
+      border-right: 1px solid #4b5157
+  &__title
+    font-weight: 700
+    margin: 0
+    line-height: 25px
+    color: #ffffff
+    margin-right: 15px
+    +roboto-slab(16px)
+  &::after
+    content: ''
+    position: absolute
+    z-index: -10
+    background-color: #262d33
+    top: 0
+    left: 0
+    right: 0
+    height: 475px
