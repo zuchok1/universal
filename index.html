@@ -4,14 +4,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Universal</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Roboto+Slab:wght@700&display=swap"
+  <title>Universal - Breaking News, World News & Multimedia</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=Roboto+Slab:wght@700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__top">
+        <button class="header__sections">
+          <img src="img/menu-icon.svg" alt="Icon: menu" class="header__menu-icon">
+          Sections
+        </button>
+        <form action="#" class="header__form">
+          <button class="header__search-btn">
+            <img src="img/search-icon.svg" alt="Icon: search" class="header__search-icon">
+          </button>
+          <input type="text" class="header__input" placeholder="Search">
+        </form>
+        <a href="#" class="subscribe header__subscribe">
+          <img src="img/subscribe-img.jpg" alt="Preview of the article" class="subscribe__img">
+          <span class="subscribe__title">Subscribe Now</span>
+          <span class="subscribe__price">3 month for $19</span>
+        </a>
+        <a href="#" class="header__sign-in sign-in">
+          <img src="img/profile-icon.svg" alt="Icon: profile" class="sign-in__profile-icon">
+          <span class="sign-in__text">Sign In</span>
+        </a>
+      </div>
 
+      <div class="header__middle">
+        <div class="header__news">
+          <img src="img/statue-of-liberty.png" alt="Statue of Liberty" class="header__preview">
+          <span class="header__news-title">Boston and New York Bear Brunt</span>
+        </div>
+        <a class="header__logo logos" href="/">
+          <img src="img/logo.svg" alt="Logo: Universal" class="logo__img">
+        </a>
+
+        <span class="header__date">Monday, January 1, 2018</span>
+        <div class="weather header__weather">
+          <img src="img/weather-sun.svg" alt="Icon: sun" class="weather__icon">
+          <span class="weather__temperature">- 23 °C</span>
+        </div>
+      </div>
+
+
+    </div>
+    <nav class="header__navbar navbar">
+      <div class="navbar__container container">
+        <a href="#" class="navbar__item">News</a>
+        <a href="#" class="navbar__item">Opinion</a>
+        <a href="#" class="navbar__item">Science</a>
+        <a href="#" class="navbar__item">Life</a>
+        <a href="#" class="navbar__item">Travel</a>
+        <a href="#" class="navbar__item">Moneys</a>
+        <a href="#" class="navbar__item">Art & Design</a>
+        <a href="#" class="navbar__item">Sports</a>
+        <a href="#" class="navbar__item">People</a>
+        <a href="#" class="navbar__item">Health</a>
+        <a href="#" class="navbar__item">Education</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

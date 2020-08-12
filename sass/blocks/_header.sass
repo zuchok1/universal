@@ -1,0 +1,103 @@
+.header
+  background-color: #ffffff
+  color: #262d33
+  +lato(14px)
+  line-height: 20px
+  &__top
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 51px
+    border-bottom: 1px solid #d9dadb
+  &__sections
+    display: flex
+    align-items: center
+    height: 100%
+    font-weight: 900
+    padding-right: 25px
+    border-right: 1px solid #d9dadb
+    color: #262d33
+  &__menu-icon
+    margin-right: 15px  
+  &__form
+    margin-right: auto
+    margin-left: 25px
+    display: flex
+    height: 20px
+  &__input
+    outline: none
+    border: none
+    padding: 0
+    padding-left: 10px
+    &::placeholder
+      color: #939699
+  &__subscribe
+    margin-right: 56px
+  &__middle
+    padding-left: 30px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    color: #4b5157
+    position: relative
+  &__news
+    display: flex
+    align-items: center
+    margin-right: auto
+  &__preview
+    margin-right: 15px
+  &__logo
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+  &__date
+    margin-right: 68px
+
+.subscribe
+  align-self: start
+  min-width: 166px
+  padding-top: 7px
+  font-size: 12px
+  line-height: 15px
+  &__img
+    float: left
+    border: 3px solid #BCBFC2
+    border-bottom: 0
+    margin-right: 10px
+  &__title
+    font-weight: 900
+    display: block
+    margin-top: 4px
+  &__price
+    color: #939699
+    font-family: Lato
+    font-weight: 400
+
+.sign-in
+  display: flex
+  align-items: center
+  &__profile-icon
+    margin-right: 10px
+  &__text
+    color: #4b5157
+
+.weather
+  display: flex
+  align-items: center
+  &__icon
+    margin-right: 10px
+
+.navbar
+  background-color: #262d33
+  &__container
+    min-height: 55px
+    padding-top: 17px
+    display: flex
+    justify-content: space-between
+  &__item
+    color: #ffffff
+    font-weight: 900
+    letter-spacing: 0.5px
+    text-transform: uppercase
+    line-height: 20px
