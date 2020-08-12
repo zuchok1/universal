@@ -302,7 +302,17 @@ button.swiper-pagination-bullet {
 
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #f5f5f5
+  background: #f5f5f5;
+  position: relative;
+}
+
+.swiper-pagination-bullet-active::after {
+  content: url(../img/tabs-path.svg);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  z-index: 10;
 }
 
 .swiper-container-vertical>.swiper-pagination-bullets {
