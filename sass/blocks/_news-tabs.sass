@@ -7,3 +7,54 @@
     border-radius: 10px
   &__swiper-pagination
     padding-top: 60px
+  &__slide
+    position: relative
+  &__img
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    z-index: -1
+  &__pagination
+    position: absolute
+    top: 0
+    bottom: 0
+    right: 0
+    width: 263px
+    z-index: 15
+    background-color: transparent
+    pointer-events: none
+.pagination
+  &__title
+    font-weight: 900
+    letter-spacing: 0.5px
+    line-height: 20px
+    text-transform: uppercase
+    margin: 20px 25px
+    +lato(14px)
+  &__card
+    padding: 17px 25px 19px 25px
+  &__category
+    +lato(12px)
+    margin: 0
+    margin-bottom: 8px
+    font-weight: 900
+    letter-spacing: 0.5px
+    line-height: 15px
+    text-transform: uppercase
+    &_blue
+      color: #3bbdc4
+    &_grey
+      color: #6e99ae
+    &_pink
+      color: #ac8ee3
+    &_orange
+      color: #ffa34d
+    &_green
+      color: #3dc47e
+  &__card-title
+    margin: 0
+    color: #4b5157
+    line-height: 20px
+    font-weight: 400
+    +lato(14px)
